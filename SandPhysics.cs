@@ -6,6 +6,7 @@ public class ObjectPhysics : MonoBehaviour
 {
     public LayerMask rockLayer;
     [Header("Options")]
+    [Range(0.1f, 50.0f)]
     public float transitionSpeed = 15.0f;
     public bool isGrounded = false;
     [Header("Busy Places")]
